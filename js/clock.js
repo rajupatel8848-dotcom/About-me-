@@ -1,0 +1,1 @@
+(function(){const a=document.getElementById('lt'),y=document.getElementById('y2');if(y)y.textContent=new Date().getFullYear();function t(){try{a.textContent=new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'})}catch(e){}}t();setInterval(t,20000)})();
